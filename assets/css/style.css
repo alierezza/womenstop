@@ -1,0 +1,52 @@
+.navbar-nav {
+    margin: 7px;
+    width: 150px;
+}
+
+.navbar-default {
+    background: #e7f6ff;
+    border-color: #e7f6ff;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 25px;
+    color: #2f2f2f;
+}
+
+.product__saleStatus {
+    padding: 10px 20px;
+    color: white;
+    display: inline;
+}
+
+.product__saleStatus.sale {
+    background: #b11b1b;
+}
+
+.product__list img {
+    width: 100%;
+}
+
+.product__item {
+    border: solid 1px #ccc;
+    padding: 20px 10px;
+}
+
+.product__saleStatus.exclusive {
+    background: #157d2b;
+}
+.product__data {
+    font-weight: bold;
+    display: flex;
+    margin-top: 3px;
+}
+
+.product__dataName {
+    flex: 1;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.product__dataPrice {
+    font-size: 2.3rem;
+}
